@@ -8,8 +8,11 @@ npm install @material-ui/core
 npm install @material-ui/icons
 npm install react-router-dom
 npm install axios 
+npm install --save-dev nodemon
 
 cd $(pwd)/$1
+touch Dockerfile
+touch .dockerignore
 mkdir $(pwd)/components
 mkdir $(pwd)/services
 mkdir $(pwd)/utils
